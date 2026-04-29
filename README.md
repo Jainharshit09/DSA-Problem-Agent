@@ -1,6 +1,6 @@
 # 🤖 DSA Solver Project - Multi-Agent Intelligent System
 
-A comprehensive **multi-agent intelligent system** for solving Data Structures and Algorithms (DSA) problems using **CrewAI**, **Google ADK (Application Development Kit)**, **LangChain**, and **Google Gemini AI**.
+A comprehensive **multi-agent intelligent system** for solving Data Structures and Algorithms (DSA) problems using **CrewAI**, **Google ADK (Application Development Kit, and **Google Gemini AI**.
 
 The system combines specialized AI agents that work together to analyze DSA problems, generate test cases, write optimized code solutions, and validate implementations—all with intelligent reasoning and complexity analysis.
 
@@ -727,10 +727,5 @@ See `PROJECT_REQUIREMENTS_CHECK.md` for detailed verification.
 3. **Import errors**: Ensure all dependencies are installed: `pip install -r requirements.txt`
 4. **Context not sharing**: Check STM_STORE is being used correctly in coordinator
 
-## License
-
-[Your License Here]
-
 ## Contributors
-
-[Your Name/Team]
+Harshit Jain

@@ -1,0 +1,325 @@
+# ============================================
+# Python Virtual Environment
+# ============================================
+venv/
+env/
+ENV/
+.venv
+env.bak/
+venv.bak/
+
+# ============================================
+# Python Cache & Compiled Files
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.pyc
+
+# ============================================
+# Environment Variables & Secrets
+# ============================================
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.p8
+secrets/
+credentials/
+
+# ============================================
+# IDE & Editor Configuration
+# ============================================
+.vscode/
+.idea/
+.vs/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+.sublime-settings
+
+# ============================================
+# IDE Specific
+# ============================================
+.vscode/settings.json
+.vscode/launch.json
+.vscode/extensions.json
+.VS/
+.vscode/*
+!.vscode/extensions.json
+
+# PyCharm
+*.iml
+*.iws
+*.ipr
+.idea/*
+!.idea/
+!.idea/codeStyles
+!.idea/runConfigurations
+
+# ============================================
+# Testing & Coverage
+# ============================================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+.nose*
+
+# ============================================
+# Database Files
+# ============================================
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.rdb
+ltm.db
+data.db
+
+# ============================================
+# Logs & Output Files
+# ============================================
+*.log
+*.jsonl
+logs/
+*.pid
+dsa_logs.jsonl
+dsa_logs.json
+.streamlit_logs/
+
+# ============================================
+# Temporary Files
+# ============================================
+tmp/
+temp/
+*.tmp
+*.bak
+*.backup
+~*
+*.swp
+.DS_Store
+Thumbs.db
+
+# ============================================
+# OS Specific Files
+# ============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.lnk
+desktop.ini
+
+# ============================================
+# Package Manager Lock Files (Optional)
+# ============================================
+# Uncomment if you want to ignore lock files
+# poetry.lock
+# Pipfile.lock
+
+# ============================================
+# Node Modules (if using npm)
+# ============================================
+node_modules/
+npm-debug.log
+yarn-error.log
+.npm
+
+# ============================================
+# Distribution/Release Files
+# ============================================
+dist/
+build/
+*.tar.gz
+*.zip
+*.whl
+
+# ============================================
+# FastAPI & Uvicorn Specific
+# ============================================
+__pycache__/
+.uvicorn/
+uvicorn.log
+
+# ============================================
+# Streamlit Specific
+# ============================================
+.streamlit/
+.streamlit/config.toml
+.streamlit/secrets.toml
+
+# ============================================
+# Jupyter Notebook
+# ============================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*.ipynb
+
+# ============================================
+# Celery
+# ============================================
+celerybeat-schedule
+celerybeat.pid
+
+# ============================================
+# SageMath Parser
+# ============================================
+*.sage.py
+
+# ============================================
+# Rope Project
+# ============================================
+.ropeproject
+
+# ============================================
+# mkdocs Documentation
+# ============================================
+site/
+
+# ============================================
+# mypy
+# ============================================
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ============================================
+# Pyre type checker
+# ============================================
+.pyre/
+
+# ============================================
+# Cython Debug Symbols
+# ============================================
+cython_debug/
+
+# ============================================
+# pytest-xdist
+# ============================================
+.pytest_xdist/
+
+# ============================================
+# Visual Studio Code Workspace
+# ============================================
+*.code-workspace
+
+# ============================================
+# Docker (if using containers)
+# ============================================
+.dockerignore
+docker-compose.override.yml
+
+# ============================================
+# Kubernetes (if using k8s)
+# ============================================
+*.yaml.bak
+
+# ============================================
+# Project Specific
+# ============================================
+output/temp/
+output/cache/
+venv/
+.venv/
+*.tsv
+*.csv
+.env
+
+# ============================================
+# API Keys & Credentials (Security)
+# ============================================
+api_keys.txt
+credentials.json
+service_account.json
+.credentials/
+
+# ============================================
+# Model & Data Caches
+# ============================================
+*.model
+*.pkl
+*.pickle
+.cache/
+models/cache/
+
+# ============================================
+# Research & Experiment Files
+# ============================================
+experiments/
+research/
+notebooks/
+
+# ============================================
+# Build artifacts
+# ============================================
+*.o
+*.a
+*.so
+*.exe
+
+# ============================================
+# Generated Documentation
+# ============================================
+docs/_build/
+site/
+
+# ============================================
+# OS Lock Files
+# ============================================
+.lock
+*.lock
+
+# ============================================
+# Version Control Merge Files
+# ============================================
+*.orig
+*.BACKUP.*
+*.BASE.*
+*.LOCAL.*
+*.REMOTE.*
+
+# ============================================
+# Archive Files
+# ============================================
+*.tar
+*.tar.gz
+*.tar.bz2
+*.rar
+*.7z
+
+# ============================================
+# Unwanted Output Files
+# ============================================
+results.json
+test_results.json
+output_results.md
